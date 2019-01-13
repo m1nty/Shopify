@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+SEE README FIRST
+
  */
 package marketplace;
 
@@ -47,6 +46,7 @@ import java.util.Scanner;
  * @author 14167
  */
 public class Market {
+    //Market repersents linkedlist which incoporates the products as nodes
     private Product head;
     private int size = 0;
     public Market(){
